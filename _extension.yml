@@ -1,0 +1,40 @@
+title: Presentation
+author: Cynthia Huang and Rob Hyndman
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    beamer:
+      include-in-header:
+        - beamer/front-matter.tex
+      # Override pandoc defaults to obtain the correct title slide
+      # and author information.
+      template-partials:
+        - beamer/title.tex
+        - beamer/before-body.tex
+    common:
+      title-slide-attributes:
+        data-background-size: "contain"
+        data-background-position: "center"
+      width: 1280
+      height: 720
+      date-format: long
+      slide-number: true
+      show-slide-number: all
+    revealjs:
+      title-slide-attributes:
+        data-background-image: "_images/background/bg-09.png"
+      theme: [default, revealjs/monash.scss]
+      logo: _images/logo/monash-one-line-black-rgb.png
+      # css: [assets/tachyons-addon.css]
+      # include-after-body: "revealjs/after-body.html"
+      # include-in-header: "revealjs/header.html"
+    revealjs+letterbox:
+      title-slide-attributes:
+        data-background-image: "_images/background/bg-02.png"
+      theme: [default, letterbox/letterbox.scss, revealjs/monash.scss]
+      include-after-body:
+        - letterbox/theme.html
+      template-partials:
+         - letterbox/title-slide.html
+      background-image: _images/background/bg-09.png
