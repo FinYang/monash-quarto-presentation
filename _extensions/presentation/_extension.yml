@@ -27,28 +27,25 @@ contributes:
         - _images/background/title16x9.png
         - _images/logo/monash-one-line-black-rgb.png
     common:
-      title-slide-attributes:
-        data-background-size: "contain"
-        data-background-position: "center"
-      width: 1280
-      height: 720
       date-format: long
       slide-number: true
       show-slide-number: all
     revealjs:
       title-slide-attributes:
-        data-background-image: "_images/background/bg-09.png"
+        data-background-image: "_images/background/bg-10.png"
+        data-background-size: "stretch"
+        data-background-position: "center"
       theme: [default, revealjs/monash.scss]
-      logo: _images/logo/monash-one-line-black-rgb.png
-      # css: [assets/tachyons-addon.css]
-      # include-after-body: "revealjs/after-body.html"
-      # include-in-header: "revealjs/header.html"
+      logo: _images/logo/monash-stacked-blue-rgb-transparent.png
     revealjs+letterbox:
+      width: 1280
+      height: 720
       title-slide-attributes:
         data-background-image: "_images/background/bg-02.png"
+        data-background-size: "contain"
+        data-background-position: "center"
       theme: [default, letterbox/letterbox.scss, revealjs/monash.scss]
       include-after-body:
         - letterbox/theme.html
       template-partials:
-         - letterbox/title-slide.html
-      background-image: _images/background/bg-09.png
+        - letterbox/title-slide.html
