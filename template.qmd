@@ -1,10 +1,11 @@
 ---
-title: My great presentation
+title: My great presentation with a title that is far too long
 author: Hypatia of Alexandria
 date: today
 toc: true
 format:
-  presentation-beamer
+  presentation-beamer: default
+  presentation-revealjs+letterbox: default
 ---
 
 ```{r}
