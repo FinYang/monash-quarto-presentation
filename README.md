@@ -39,4 +39,4 @@ quarto install extension quarto-monash/presentation
 
 ## RevealJS output
 
-[![revealjs version](examples/htmltemplate.png)](examples/template.pdf)
+[![revealjs version](examples/htmltemplate.png)](examples/template.html)
