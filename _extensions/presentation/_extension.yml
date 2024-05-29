@@ -2,9 +2,17 @@ title: Presentation
 author: Cynthia Huang and Rob Hyndman
 version: 1.0.0
 quarto-required: ">=1.4.0"
+date-format: "D MMMM YYYY"
 contributes:
   formats:
     beamer:
+      theme: monash
+      aspectratio: 169
+      fontsize: 14pt
+      section-titles: false
+      pdf-engine: pdflatex
+      fig-width: 9
+      fig-height: 4.5
       include-in-header:
         - beamer/front-matter.tex
       # Override pandoc defaults to obtain the correct title slide
@@ -12,6 +20,12 @@ contributes:
       template-partials:
         - beamer/title.tex
         - beamer/before-body.tex
+      format-resources:
+        - beamer/beamercolorthememonashwhite.sty
+        - beamer/beamerfontthememonash.sty
+        - beamer/beamerthememonash.sty
+        - _images/background/title16x9.png
+        - _images/logo/monash-one-line-black-rgb.png
     common:
       title-slide-attributes:
         data-background-size: "contain"

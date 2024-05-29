@@ -1,0 +1,16 @@
+---
+title: My great presentation
+author: Hypatia of Alexandria
+date: today
+format:
+  presentation-beamer
+---
+
+## Goals
+
+The main goals for this slide:
+
+- This is just to show you how this \emph{template} works
+- The colors in this template is selected from the official Monash University color palette
+- Note that hyperlinks, by default, are not highlighted. Of course,
+  you can change this: e.g., \emph{\href{https://github.com/sanhacheong/stanford_beamer_presentation}{https://github.com/sanhacheong/stanford\_beamer\_presentation}}
