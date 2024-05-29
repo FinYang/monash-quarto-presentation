@@ -1,0 +1,18 @@
+---
+title: "A very long title for your presentation"
+author: "Cynthia Huang"
+date: 2024-05-29
+format: presentation-revealjs+letterbox
+---
+
+## Introduction
+
+Making slides using the monash revealjs letterbox template.
+
+## Slide Size
+
+## Font Size
+
+## Exporting to PDF
+
+Revealjs has export-to-pdf functionality built-in
