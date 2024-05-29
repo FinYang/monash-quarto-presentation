@@ -6,11 +6,42 @@ format:
   presentation-beamer
 ---
 
+```{r}
+#| label: load-packages
+library(knitr)
+library(ggplot2)
+library(dplyr)
+```
+
+# Goals
+
 ## Goals
 
 The main goals for this slide:
 
 - This is just to show you how this \emph{template} works
-- The colors in this template is selected from the official Monash University color palette
-- Note that hyperlinks, by default, are not highlighted. Of course,
-  you can change this: e.g., \emph{\href{https://github.com/sanhacheong/stanford_beamer_presentation}{https://github.com/sanhacheong/stanford\_beamer\_presentation}}
+- The blue in this template is based on the official Monash University color palette
+
+# Tables and graphs
+
+## Slide 2
+
+A nice table
+
+```{r}
+mtcars |>
+  select(mpg:wt) |>
+  head() |>
+  kable(booktabs = TRUE)
+```
+
+## Slide 3
+
+And a graph
+
+```{r}
+#| fig-height: 3.8
+mtcars |>
+  ggplot(aes(x=wt, y = mpg)) +
+  geom_point()
+```

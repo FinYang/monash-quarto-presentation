@@ -29,17 +29,13 @@ $for(authors)$$it.name.literal$$sep$ \and $endfor$\\%
 $if(beamer)$
 $if(institute)$
 \institute{
-% Hard code logo path ----
-\includegraphics[height=0.4in]{monash-one-line-black-rgb.png}\\
 $for(institute)$$institute$$sep$ \and $endfor$
 }
 $endif$
 $if(titlegraphic)$
 \titlegraphic{\includegraphics{$titlegraphic$}}
 $endif$
-%$if(logo)$
-%\logo{\includegraphics{$logo$}}
-%$endif$
-% Hard code logo path ----
-\logo{\includegraphics[height=0.42in]{monash-one-line-black-rgb.png}}
+$if(logo)$
+\logo{\includegraphics{$logo$}}
+$endif$
 $endif$
