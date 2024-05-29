@@ -108,19 +108,6 @@
 \def\fullwidth#1{\vspace*{-0.06cm}\centerline{\includegraphics[width=16cm,height=20cm,keepaspectratio=true]{#1}}}
 \def\fullheight#1{\vspace*{-0.06cm}\centerline{\includegraphics[width=20cm,height=8.8cm,keepaspectratio=true]{#1}}}
 
-% Monash title page
-% One can alter the font size by setting eg 'titlefontsize: 20pt' in the YAML header
-\setbeamerfont{title}{series=\bfseries,parent=structure,size=\fontsize{22}{28}}
-\setbeamertemplate{title page}
-{\placefig{-0.01}{-0.01}{width=1.01\paperwidth,height=1.01\paperheight}{title16x9}
-\begin{textblock}{8.7}(1,2.8)\usebeamerfont{title}
-{\color{Orange}\raggedright\par\inserttitle}
-\end{textblock}
-\begin{textblock}{8.7}(1,6.8)
-{\color{Orange}\raggedright{\insertauthor}\mbox{}\\[0.2cm]
-\insertdate}
-\end{textblock}}
-
 % Tighter table of contents
 \usepackage{etoolbox}
 \pretocmd{\section}{\addtocontents{toc}{\protect\addvspace{-20\p@}}}{}{}

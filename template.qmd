@@ -24,6 +24,11 @@ The main goals for this slide:
 - This is just to show you how this \emph{template} works
 - The blue in this template is based on the official Monash University color palette
 
+### beamer options
+
+- Use the `titlegraphic` option to include a different background image for the title slide
+- Use the `titlecolor` option to change the color for the text on the title slide.
+
 # Tables and graphs
 
 ## Slide 2

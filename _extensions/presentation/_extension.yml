@@ -17,6 +17,8 @@ contributes:
       pdf-engine: pdflatex
       fig-width: 9
       fig-height: 4.5
+      titlegraphic: title16x9.png
+      titlecolor: Orange
       template-partials:
         - beamer/before-title.tex
         - beamer/toc.tex
