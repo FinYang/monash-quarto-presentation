@@ -1,8 +1,8 @@
-**/*.html
 **/*_files
 /*.sty
 /*.png
-/*.pdf
+/template.html
+/template.pdf
 
 .quarto/*
 
