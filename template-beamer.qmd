@@ -2,6 +2,7 @@
 title: My great presentation
 author: Hypatia of Alexandria
 date: today
+toc: true
 format:
   presentation-beamer
 ---

@@ -1,0 +1,10 @@
+\usetheme{Monash}
+
+$if(toc)$
+% Outline at start of each section
+\AtBeginSection[]{
+   \begin{frame}{Outline}\vspace*{0.7cm}
+   \tableofcontents[currentsection,hideallsubsections]
+   \end{frame}
+  }
+$endif$
