@@ -35,6 +35,7 @@ contributes:
     revealjs+letterbox:
       width: 1280
       height: 720
+      self-contained: true
       title-slide-attributes:
         data-background-image: "_images/background/bg-02.png"
         data-background-size: "contain"
