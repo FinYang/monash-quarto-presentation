@@ -17,14 +17,14 @@ contributes:
       pdf-engine: pdflatex
       fig-width: 9
       fig-height: 4.5
-      titlegraphic: title16x9.png
-      titlecolor: Orange
+      titlegraphic: bg-02.png
+      titlecolor: black
       template-partials:
         - beamer/before-title.tex
         - beamer/toc.tex
       format-resources:
         - beamer/beamerthemeMonash.sty
-        - _images/background/title16x9.png
+        - _images/background/bg-02.png
     revealjs:
       title-slide-attributes:
         data-background-image: "_images/background/bg-10.png"
