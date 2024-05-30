@@ -24,7 +24,6 @@ contributes:
         - beamer/toc.tex
       format-resources:
         - beamer/beamerthemeMonash.sty
-        - _images/background/bg-02.png
     revealjs:
       title-slide-attributes:
         data-background-image: "_images/background/bg-10.png"
