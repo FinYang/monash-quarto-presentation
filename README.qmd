@@ -19,7 +19,8 @@ image_read_pdf("template.pdf", density = 200)[1] |>
   image_convert(format = "png") |>
   image_write("examples/pdftemplate.png")
 # Convert rendered html to png
-pagedown::chrome_print("template.html", "examples/htmltemplate.png", format="png")
+#pagedown::chrome_print("template.html", "examples/htmltemplate.png", format="png")
+# Using manual screenshot for now as this doesn't get the correct fonts
 
 # Move rendered results to examples folder
 fs::file_move("template.pdf", "examples/template.pdf")
