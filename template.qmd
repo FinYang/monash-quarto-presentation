@@ -52,3 +52,10 @@ mtcars |>
   ggplot(aes(x=wt, y = mpg)) +
   geom_point()
 ```
+
+## Slide 4
+
+The sample standard deviation is given by
+$$
+  s = \sqrt{\frac{1}{n-1} \sum_{i=1}^n (x_i - \bar{x})^2}
+$$
