@@ -14,7 +14,7 @@ contributes:
       aspectratio: 169
       fontsize: 14pt
       section-titles: false
-      pdf-engine: pdflatex
+      pdf-engine: xelatex
       fig-width: 9
       fig-height: 4.5
       titlegraphic: bg-02.png
