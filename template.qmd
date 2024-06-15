@@ -59,3 +59,10 @@ The sample standard deviation is given by
 $$
   s = \sqrt{\frac{1}{n-1} \sum_{i=1}^n (x_i - \bar{x})^2}
 $$
+
+## Testing monospace font
+
+```{r}
+#| echo: true
+mtcars
+```
