@@ -7,9 +7,19 @@
 \beamer@centeredfalse
 
 % Fonts
-\usepackage[fira]{fontsetup}
-\setmonofont[Scale=0.85]{SourceCodePro-Regular.otf}
-\def\verbatim@font{\fontsize{10}{10}\tt}%
+\ifPDFTeX
+  \usepackage{sourcecodepro}
+  \usepackage[default]{FiraSans}
+  \usepackage{etoolbox}
+  \patchcmd{\@verbatim}
+    {\verbatim@font}
+    {\verbatim@font\fontsize{10}{10}\tt}
+    {}{}
+\else % if luatex or xetex
+  \usepackage[fira]{fontsetup}
+  \setmonofont[Scale=0.85]{SourceCodePro-Regular.otf}
+  \def\verbatim@font{\fontsize{10}{10}\tt}%
+\fi
 
 %% Colors
 \definecolor{DarkGrey}{RGB}{100,100,100}
