@@ -66,3 +66,22 @@ $$
 #| echo: true
 mtcars
 ```
+
+
+## Testing math fonts
+
+* Calligraphic
+
+  * $\mathcal{ABCDE}$
+
+* Script
+
+  * $\mathscr{ABCDE}$
+
+* Fraktur
+
+  * $\mathfrak{ABCDE}$
+
+* Mathbb
+
+  * $\mathbb{ABCDE}$
