@@ -27,6 +27,6 @@ $endif$
 \graphicspath{{_extensions/presentation/_images/background/}{_extensions/quarto-monash/presentation/_images/background/}{figs/}{figures/}{images/}{img/}}
 
 % Fix longtable undefined theHtable issue
-\makeatletter
-\@ifundefined{\theHtable}{\renewcommand{\theHtable}{\thetable}}{}
-\makeatother
+\ifdefined\theHtable\else
+\newcommand{\theHtable}{\thetable}
+\fi
