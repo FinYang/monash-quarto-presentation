@@ -35,8 +35,8 @@ quarto install extension quarto-monash/presentation
 
 ### Beamer output
 
-[![beamer version](examples/pdftemplate.png)](examples/template.pdf)
+[![](examples/pdftemplate.png)](examples/template.pdf)
 
 ## RevealJS output
 
-[![revealjs version](examples/htmltemplate.png)](examples/template.html)
+[![](examples/htmltemplate.png)](examples/template.html)
